@@ -16,8 +16,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.project.weatherapp.ui.components.MainCardWeather
 import com.project.weatherapp.ui.components.CardWeather
+import com.project.weatherapp.ui.components.MainCardWeather
 import com.project.weatherapp.ui.components.NoLocation
 import com.project.weatherapp.ui.components.SpinnerLoading
 import com.project.weatherapp.util.Const.idCurrrentLocation
@@ -69,7 +69,7 @@ fun MainWeatherPage(
                 items(
                     items = weatherCity,
                     key = { it.id }
-                ){
+                ) {
                     CardWeather(
                         cityId = it.id,
                         temperature = it.temperature,

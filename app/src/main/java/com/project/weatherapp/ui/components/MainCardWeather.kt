@@ -30,7 +30,6 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.project.weatherapp.R
-import com.project.weatherapp.ui.components.MiniIcon
 import com.project.weatherapp.ui.theme.gray
 import com.project.weatherapp.util.toFormattedDateString
 
