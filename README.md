@@ -25,6 +25,8 @@ The Weather App displays the current weather forecast for your device current lo
 - ### Prerequisites
     - #### Android devices
     - #### Installation
-      - You can clone this repository or check releases version for download the APK.
+      - You can clone this repository or check [releases](https://github.com/LibrioX/WeatherApp/releases) version for download the APK.
       - ### Tools Software (For clone this repository)
         - [Android Studio](https://developer.android.com/studio)
+       
+
